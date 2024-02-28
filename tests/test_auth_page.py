@@ -198,8 +198,8 @@ def test_footer_cookie_hint(web_driver):
     assert cookie.is_displayed(), "Cookie hint not displayed"
 
 
-#     # Логотип
-#
+
+    # Логотип
 # def test_logo_navigation(web_driver):
 #     page = AuthPage(web_driver)
 #     page.open_auth_page()
@@ -207,9 +207,6 @@ def test_footer_cookie_hint(web_driver):
 #
 #     page.logo_click()
 #     time.sleep(3)
-
-# Проверить, что произошел переход на главную страницу
-#     assert page.logo_click() == '/auth', "Logo navigation doesn't work"
 
 
 # НЕГАТИВНЫЕ ТЕСТЫ:

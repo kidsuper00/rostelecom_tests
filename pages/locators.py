@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 
 class AuthLocators:
     # AUTH_REGISTRATION = None
-    AUTH_LOGO = (By.XPATH, '/html/body/div[1]/header/div/div/svg')
+    AUTH_LOGO = (By.XPATH, '//*[@id="app-header"]/div/div/svg')
     AUTH_EMAIL = (By.CSS_SELECTOR, '#username')
     AUTH_PASS = (By.CSS_SELECTOR, '#password')
     AUTH_BTN = (By.CSS_SELECTOR, '#kc-login')
