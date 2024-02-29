@@ -199,7 +199,7 @@ def test_footer_cookie_hint(web_driver):
 
 
 
-    # Логотип
+    #Логотип
 # def test_logo_navigation(web_driver):
 #     page = AuthPage(web_driver)
 #     page.open_auth_page()
@@ -207,6 +207,10 @@ def test_footer_cookie_hint(web_driver):
 #
 #     page.logo_click()
 #     time.sleep(3)
+#
+#     assert web_driver.find_element(By.XPATH, "//*[@id='app-header']/div/div/svg)".get_attribute("src") == "//*["
+#                                                                                                           "@id='app-header']/div/div/svg")
+
 
 
 # НЕГАТИВНЫЕ ТЕСТЫ:
